@@ -98,7 +98,7 @@ hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
 hi Typedef         guifg=#66D9EF
 hi Type            guifg=#66D9EF               gui=none
-hi Underlined      guifg=#808080               gui=underline
+"hi Underlined      guifg=#808080               
 
 hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
 hi VisualNOS                     guibg=#403D3D
@@ -141,7 +141,7 @@ if &t_Co > 255
         hi CursorLineNr ctermfg=208               cterm=none
     else
         hi Normal       ctermfg=252 ctermbg=black
-        hi CursorLine               ctermbg=233   cterm=bold
+        hi CursorLine               ctermbg=233   cterm=none
         hi CursorLineNr ctermfg=208               cterm=none
     endif
     hi Boolean         ctermfg=135
@@ -221,7 +221,7 @@ if &t_Co > 255
 
     hi Typedef         ctermfg=81
     hi Type            ctermfg=81                cterm=none
-    hi Underlined      ctermfg=234  ctermbg=214 
+    hi Underlined      ctermfg=85 ctermbg=234  cterm=underline
 
     hi VertSplit       ctermfg=244 ctermbg=232   cterm=bold
     hi VisualNOS                   ctermbg=238
